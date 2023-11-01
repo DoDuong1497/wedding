@@ -1,0 +1,77 @@
+.banner {
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-2);
+}
+
+.banner .subtitle {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.banner .banner-name .wrap {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.banner .banner-name h2 {
+  font-size: 130px;
+  margin-bottom: 0;
+}
+
+.banner .banner-name h2:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.banner .banner-name h2:last-child .plus {
+  display: inline-block;
+  margin: 0 80px 0 64px;
+}
+
+.banner .banner-date {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner .banner-icon img {
+  position: absolute;
+}
+
+.banner .banner-icon .icon-1 {
+  top: 65%;
+  left: 20%;
+}
+
+.banner .banner-icon .icon-2 {
+  top: 60%;
+  right: 14%;
+}
+
+.banner .banner-icon .icon-3 {
+  right: 25%;
+  top: 37%;
+}
+
+.about {
+  padding: 200px 0;
+  background-color: var(--color-3);
+}
+
+.about .about-info > * {
+  color: var(--color-2);
+}
+
+.about .about-info h4 {
+  font-size: 28px;
+}
+
+.about-bride {
+  margin-bottom: 50px;
+}
+
+.about-bride .about-info p {
+  font-size: 18px;
+}
