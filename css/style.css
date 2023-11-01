@@ -10,9 +10,13 @@
   text-align: center;
 }
 
+.banner .banner-name {
+  display: flex;
+  justify-content: center;
+}
+
 .banner .banner-name .wrap {
-  width: 50%;
-  margin: 30px auto;
+  width: 691px;
 }
 
 .banner .banner-name h2 {
@@ -60,6 +64,10 @@
   background-color: var(--color-3);
 }
 
+.about .about-info {
+  position: relative;
+}
+
 .about .about-info > * {
   color: var(--color-2);
 }
@@ -68,10 +76,97 @@
   font-size: 28px;
 }
 
+.about .about-info p {
+  font-size: 18px;
+}
+
+.about .about-image {
+  position: relative;
+}
+
+.about .about-image img.avt {
+  width: 499px;
+  height: 356px;
+  border: 13px solid #fff;
+  object-fit: cover;
+  z-index: 10;
+  position: relative;
+}
+
 .about-bride {
   margin-bottom: 50px;
 }
 
-.about-bride .about-info p {
-  font-size: 18px;
+.about-bride .bride-avatar img.avt {
+  margin-top: 1%;
+  transform: rotateZ(-5deg);
+}
+
+.about-bride .bride-avatar .border-avt {
+  position: absolute;
+  z-index: 0;
+  top: 5px;
+  width: 535px;
+  height: 480px;
+  left: -8.5%;
+}
+
+.about-bride .bride-avatar .dress-icon {
+  position: absolute;
+  top: -90px;
+  left: -165px;
+  z-index: 11;
+  width: 30%;
+  transform: rotate(-13deg);
+}
+
+.about-bride .about-info .arrow-top {
+  position: absolute;
+  top: -160px;
+  left: -150px;
+}
+
+.about-groom {
+  position: relative;
+}
+
+.about-groom .rings-icon {
+  position: absolute;
+  top: 0;
+  left: 36%;
+}
+
+.about-groom .about-info h4 {
+  margin-top: 100px;
+}
+
+.about-groom .groom-avatar img.avt {
+  margin-top: 7%;
+  transform: rotateZ(3.5deg);
+}
+
+.about-groom .groom-avatar .border-avt {
+  position: absolute;
+  width: 545px;
+  height: 480px;
+  z-index: 0;
+  top: 0;
+  right: 15%;
+  margin-top: 5%;
+}
+
+.about-groom .groom-avatar .vest-icon {
+  position: absolute;
+  width: 30%;
+  z-index: 10;
+  right: -4%;
+  top: 65%;
+}
+
+.about-groom .about-info .arrow-bottom {
+  position: absolute;
+  left: 74%;
+  bottom: -24px;
+  width: 40%;
+  z-index: 100;
 }
