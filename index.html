@@ -23,6 +23,7 @@
     />
     <!-- Bootstrap Style -->
 
+    <!-- font-awesome Style -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -30,10 +31,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- font-awesome Style -->
 
+    <!-- Bootstrap Style -->
     <link rel="stylesheet" href="./css/lightgallery.css" />
     <link rel="stylesheet" href="./css/lg-zoom.css" />
     <link rel="stylesheet" href="./css/lg-thumbnail.css" />
+    <!-- Bootstrap Style -->
 
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -73,7 +77,7 @@
         <div class="container">
           <div class="about-bride">
             <div class="row">
-              <div class="about-image col-md-6 col-sm-12">
+              <div class="about-image col-sm-6 col-xs-12">
                 <div class="bride-avatar">
                   <img class="avt" src="./image/GLR 4.jpg" alt="" />
                   <img
@@ -88,13 +92,18 @@
                   />
                 </div>
               </div>
-              <div class="about-info col-md-6 col-sm-12">
+              <div class="about-info col-sm-6 col-xs-12">
                 <h4>Cô dâu</h4>
                 <h2>Diệp Hồng Mai</h2>
                 <p>Đã được 26 mùa xuân nhưng trong tâm hồn vẫn mãi tuổi 20 ♥</p>
                 <img
                   class="arrow-top"
                   src="./image/main-arrow-top.svg"
+                  alt=""
+                />
+                <img
+                  class="arrow-top-mb"
+                  src="./image/main-arrow-bottom.svg"
                   alt=""
                 />
               </div>
@@ -372,6 +381,85 @@
       </div>
     </div>
 
+    <footer class="contact">
+      <div class="container">
+        <div class="contact-wrap">
+          <div class="row">
+            <div class="col-md-3 col-sm-12 contact-item">
+              <img src="./image/contact-phone.svg" alt="" srcset="" />
+            </div>
+            <div class="col-md-5 col-sm-12 contact-item">
+              <div class="contact-content">
+                <h1>Bạn sẽ đến chứ ?</h1>
+                <p>
+                  Chúng tôi rất chờ đón sự kiện trọng đại này. Đám cưới của
+                  chúng tôi sẽ trọn vẹn hơn khi có thêm lời chúc phúc và sự hiện
+                  diện của mọi người. Xin hãy xác nhận sự có mặt của mình để
+                  chúng tôi có thể chuẩn bị đón tiếp một cách chu đáo nhất nhé!
+                  Trân trọng!
+                </p>
+              </div>
+
+              <div class="contact-question">
+                <p>Bạn sẽ tham gia chứ?</p>
+                <div class="contact-btn">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#yesModal"
+                  >
+                    Chắc chắn rồi!!!
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#noModal"
+                  >
+                    Tôi e là...
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 contact-item"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="yesModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">demo</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="noModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">demo</div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -380,22 +468,20 @@
     ></script>
     <!-- Bootstrap Script -->
 
+    <!-- font-awesome Script -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
       integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- font-awesome Script -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-
+    <!-- lightGallery Script -->
     <script src="./js/lightgallery.min.js"></script>
     <script src="./js/lg-zoom.umd.js"></script>
     <script src="./js/lg-thumbnail.umd.js"></script>
+    <!-- lightGallery Script -->
 
     <script src="./js/main.js"></script>
   </body>

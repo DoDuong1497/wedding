@@ -135,6 +135,10 @@
   left: -150px;
 }
 
+.about-bride .about-info .arrow-top-mb {
+  display: none;
+}
+
 .about-groom {
   position: relative;
 }
@@ -195,7 +199,7 @@
   gap: 15px;
   margin-top: 50px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(auto-fill, 1fr);
+  grid-template-rows: auto;
 }
 
 #gallery-image .gallery-item {
@@ -324,4 +328,252 @@
 .event-wrap img.icon-cake {
   right: -4%;
   bottom: 150px;
+}
+
+.contact {
+  padding: 60px 0;
+  background-color: var(--color-3);
+}
+
+.contact-item:nth-child(2) .contact-content > *,
+.contact-question p {
+  color: var(--color-2);
+}
+
+.contact-item:nth-child(2) .contact-content h1 {
+  font-size: 50px;
+}
+
+.contact-item:nth-child(2) .contact-content p {
+  font-size: 20px;
+}
+
+.contact-question p {
+  font-size: 18px;
+}
+
+.contact-question .btn {
+  padding: 14px 24px;
+  border: 0;
+  border-radius: 5px;
+  color: var(--color-3);
+  background-color: var(--color-2);
+}
+
+.contact-question .btn:focus {
+  border: 0;
+}
+
+@media (max-width: 575.98px) {
+  .banner .subtitle,
+  .banner .banner-date {
+    font-size: 25px;
+  }
+
+  .banner .banner-name h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .banner .banner-name h2:last-child {
+    flex-wrap: wrap;
+  }
+
+  .banner .banner-name h2:last-child .plus,
+  .banner .banner-name h2:last-child .text {
+    width: 100%;
+  }
+
+  .banner .banner-date {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .banner .banner-icon .icon-1 {
+    width: 10%;
+    top: 79%;
+    left: 7%;
+  }
+
+  .banner .banner-icon .icon-2 {
+    width: 10%;
+    top: 50%;
+  }
+
+  .banner .banner-icon .icon-3 {
+    width: 10%;
+    top: 18%;
+    left: 75%;
+  }
+
+  .about .container {
+    width: 80%;
+  }
+
+  .about .about-image img.avt {
+    border: 7px solid #fff;
+    width: 270px;
+    height: 180px;
+  }
+
+  .about-bride .bride-avatar .border-avt {
+    width: 300px;
+    height: 200px;
+    left: -30px;
+    top: 10px;
+  }
+
+  .about-bride .bride-avatar .dress-icon {
+    margin-top: 20%;
+    left: -5%;
+    transform: rotate(0deg);
+  }
+
+  .about .about-info {
+    margin-top: 15%;
+  }
+
+  .about .about-info h4 {
+    font-size: 18px;
+  }
+
+  .about .about-info h2 {
+    font-size: 30px;
+  }
+
+  .about .about-info p {
+    font-size: 14px;
+  }
+
+  .about-bride .about-info .arrow-top {
+    display: none;
+  }
+
+  .about-bride .about-info .arrow-top-mb {
+    display: block;
+    width: 130px;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: -14%;
+    left: 50%;
+  }
+
+  .about-groom .rings-icon {
+    width: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-groom .row {
+    flex-direction: column-reverse;
+  }
+
+  .about-groom .about-info h4 {
+    margin-top: 20px;
+  }
+
+  .about-groom .about-info .arrow-bottom {
+    left: 50%;
+    bottom: 54px;
+    transform: rotate(-40deg);
+  }
+
+  .about-groom .groom-avatar img.avt {
+    left: 22px;
+    margin-top: 50%;
+  }
+
+  .about-groom .groom-avatar .border-avt {
+    width: 300px;
+    height: 200px;
+    top: 140px;
+    right: -14px;
+  }
+
+  #gallery-image {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .event p.title {
+    font-size: 28px;
+  }
+
+  .event-main::before {
+    left: 9.9%;
+    transform: none;
+  }
+
+  .event-item {
+    flex-wrap: wrap;
+  }
+
+  .event-item .event-time {
+    width: 100%;
+    padding-left: 22%;
+    padding-right: 0;
+    justify-content: flex-start;
+  }
+
+  .event-item .event-time .event-time__wrap p {
+    font-size: 13px;
+    display: inline-block;
+  }
+
+  .event-item .event-icon {
+    left: 38px;
+  }
+
+  .event-item .event-icon::after {
+    width: 60px;
+    left: 5px;
+  }
+
+  .event-item .event-content {
+    width: 100%;
+    padding-left: 22%;
+  }
+
+  .event-item .event-content h1 {
+    font-size: 20px;
+  }
+
+  .event-item .event-content a,
+  .event-item .event-content p {
+    font-size: 14px;
+  }
+
+  .event-main .heart-icon {
+    left: 13px;
+    transform: none;
+  }
+
+  .event-wrap img.icon-glass {
+    top: 87%;
+    width: 20%;
+    left: 0;
+  }
+
+  .event-wrap img.icon-plate {
+    top: 80%;
+    width: 20%;
+    left: 45%;
+  }
+
+  .event-wrap img.icon-cake {
+    top: 86%;
+    width: 17%;
+    right: 0;
+  }
+
+  .contact-item:first-child {
+    display: none;
+  }
+
+  .contact-item:nth-child(2) .contact-content h1 {
+    font-size: 45px;
+  }
+
+  .contact-item:nth-child(2) .contact-content p {
+    font-size: 14px;
+  }
 }
