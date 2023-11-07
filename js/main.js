@@ -10,3 +10,9 @@ lightGallery(document.getElementById('gallery-image'), {
     rotate: false,
   },
 });
+
+setTimeout(() => {
+  const audio = document.querySelector('audio');
+  audio.volume = 0.5;
+  audio.play();
+}, '100');
