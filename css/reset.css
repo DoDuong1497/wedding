@@ -48,7 +48,6 @@ body {
   line-height: 1.75;
   font-family: var(--font-1);
   color: var(--color-1);
-  overflow: hidden;
 }
 
 h1,
