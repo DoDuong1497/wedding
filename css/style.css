@@ -364,7 +364,20 @@
   border: 0;
 }
 
-#yesModal .modal-dialog {
+#music-wedding {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+#music-wedding img {
+  width: 30px;
+}
+
+#yesModal .modal-dialog,
+#noModal .modal-dialog {
   max-width: 650px;
 }
 
@@ -377,6 +390,10 @@
 }
 
 @media (max-width: 575.98px) {
+  body {
+    padding-right: 0 !important;
+  }
+
   .banner .subtitle,
   .banner .banner-date {
     font-size: 25px;
