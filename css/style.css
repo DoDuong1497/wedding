@@ -387,7 +387,7 @@
   background-color: var(--color-2);
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   body {
     padding-right: 0 !important;
   }
@@ -461,7 +461,7 @@
   }
 
   .about .about-info h4 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .about .about-info h2 {
@@ -542,7 +542,7 @@
   }
 
   .event-item .event-time .event-time__wrap p {
-    font-size: 13px;
+    font-size: 14px;
     display: inline-block;
   }
 
@@ -561,7 +561,7 @@
   }
 
   .event-item .event-content h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .event-item .event-content a,
@@ -602,5 +602,9 @@
 
   .contact-item:nth-child(2) .contact-content p {
     font-size: 14px;
+  }
+
+  .contact-item:last-child .icon-footer {
+    margin-top: 30px;
   }
 }
